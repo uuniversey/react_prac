@@ -5,12 +5,13 @@ import './index.css'
 import reportWebVitals from './reportWebVitals'
 
 import Lik from './test/Lik'
+import Calculator from './chapter_12/Calculator'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
-    <Lik />
+    <Calculator />
   </React.StrictMode>
 );
 
